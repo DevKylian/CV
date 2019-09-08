@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>CV Version Web | Kylian</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+    <link href="assets/styles/css/style.css" rel="stylesheet">
+    <link href="assets/styles/css/responsive.css" rel="stylesheet">
+    <link href="assets/fonts/all.css" rel="stylesheet">
+    <link rel="icon" href="assets/images/favicon/favicon.png" type="image/png">
+<body>
+
+<div class="page-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="topnav" id="myTopnav">
+                    <div class="topnav-right">
+                        <a style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</a>
+                        <a href="javascript:void(0);" class="icon right">
+                            <i class="fa fa-bars"></i> </a>
+                    </div>
+                </div>
+                <div id="sideNav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#apropos"><i class="fas fa-user icon"></i> A Propos de Moi</a>
+                    <a href="#parcour-scolaire"><i class="fas fa-graduation-cap icon"></i> Mon Parcour Scolaire</a>
+                    <a href="#competences"><i class="fas fa-star-half-alt icon"></i> Mes Compétences</a>
+                    <a href="#experience"><i class="fas fa-briefcase icon"></i> Mon Expérience</a>
+                    <a href="#realisations"><i class="fas fa-th icon"></i> Mes Réalisations</a>
+                    <a href="#centres-interets"><i class="fas fa-map-marker-alt icon"></i> Mes Centres d'Intérets</a>
+                    <a href="#contact"><i class="fas fa-envelope icon"></i> Me Contacter</a>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div id="content-section">
+                    <section class="section apropos" id="apropos">
+                        <div class="about sec-bg">
+                            <figure class="image-box"><img src="assets/images/header/1.png" alt=""></figure>
+                            <div class="content-box">
+                                <div class="title"><h1><span>Bienvenue</span><br>Sur Mon CV</h1>
+                                    <h3>Etudiant BTS SIO</h3></div>
+                                <div class="text">
+                                    <p>Je m'appel Kylian, j'ai 18 ans. Je suis rentré en BTS SIO cette année et je suis passionné par la programmation informatique.</p>
+                                    <br>
+                                    <p><b>Prénom</b> : Kylian</p>
+                                    <p><b>Email :</b> contact@kyliandev.fr</p>
+                                    <p><b>Date de Naissance / Âge :</b> <span id="birthdate" onmouseover="mouseOver()" onmouseout="mouseOut()"> 23/10/2000</span></p>
+
+                                    <p><b>Lieu de Résidence :</b> Lannion</p>
+                                    <p><b>Etudes :</b> BTS SIO</p>
+                                    <p><b>Diplômes :</b> Brevet des Collèges, Bac PRO SN</p>
+                                    <p><b>Permis :</b> Permis B</p>
+                                </div>
+
+                                <div class="link-btn"><a href="#" class="theme-btn">Télécharger CV</a>
+                                    <a href="#contact" class="theme-btn style-2">Me contacter</a></div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="parcours-scolaires" id="parcour-scolaire">
+                        <div class="title"><h1>Parcours Scolaires</h1></div>
+                        <div class="content">
+                            <div class="timeline_wrapper-2">
+                                <div class="year-timeline">
+                                    <div class="single-timeline-item">
+                                        <div class="text-holder"><h2>2019-2021</h2>
+                                            <h3><a href="http://lycee-ledantec.fr/">Lycée Félix le Dantec</a></h3>
+                                            <h4>Lannion, 22300, Bretagne</h4>
+                                            <p>Etudiant en Première Année en BTS SIO</p></div>
+                                    </div>
+                                    <div class="single-timeline-item">
+                                        <div class="text-holder"><h2>2015-2019</h2>
+                                            <h3><a href="http://lycee-ledantec.fr/">Lycée Félix le Dantec</a></h3>
+                                            <h4>Lannion, 22300, Bretagne</h4>
+                                            <p>Lycéen en Bac Professionnel Systèmes Numériques (SN) Option RISC (Réseaux Informatiques et Systèmes Communicants)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="competences" id="competences">
+                        <div class="title"><h1>Mes Compétences</h1></div>
+                        <div class="content">
+                            <div class="item-list">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="item">
+                                            <div class="inner-box">
+                                                <div class="icon-box"><i class="fab fa-html5 icon"></i></div>
+                                                <div class="inner-title"><p>HTML</p>
+                                                    <h3>BALISAGE</h3></div>
+                                            </div>
+                                            <div class="text">
+                                                <p>Langage de balisage utilisé pour la création de pages web, permettant notamment de définir des liens hypertextes.</p>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-warning" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="inner-box">
+                                                <div class="icon-box"><i class="fab fa-css3-alt icon"></i></div>
+                                                <div class="inner-title"><p>CSS</p>
+                                                    <h3>STYLE</h3></div>
+                                            </div>
+                                            <div class="text">
+                                                <p>CSS est l'acronyme de « Cascading Style Sheets » ce qui signifie « feuille de style en cascade ». Le CSS correspond à un langage informatique permettant de mettre en forme des pages web (HTML ou XML).</p>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-warning" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="inner-box">
+                                                <div class="icon-box"><i class="fab fa-python icon"></i></div>
+                                                <div class="inner-title"><p>PYTHON</p>
+                                                    <h3>PROGRAMMATION</h3></div>
+                                            </div>
+                                            <div class="text">
+                                                <p>Python est un langage de programmation interprété, multi-paradigme et multiplateformes. Il favorise la programmation impérative structurée, fonctionnelle et orientée objet.</p>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="item">
+                                            <div class="inner-box">
+                                                <div class="icon-box-y"><i class="fas fa-database icon"></i></div>
+                                                <div class="inner-title-y"><p>SQL</p>
+                                                    <h3>DATABASE</h3></div>
+                                            </div>
+                                            <div class="text">
+                                                <p>Le langage SQL est le langage de gestion de base de données le plus populaire. Il permet de définir, manipuler et protéger des données de manière simple et schématique.</p>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar-y bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="inner-box">
+                                                <div class="icon-box-y"><i class="fab fa-php icon"></i></div>
+                                                <div class="inner-title-y"><p>PHP</p>
+                                                    <h3>PROGRAMMATION</h3></div>
+                                            </div>
+                                            <div class="text">
+                                                <p>Le PHP, pour Hypertext Preprocessor, désigne un langage informatique, ou un langage de script, utilisé principalement pour la conception de sites web dynamiques.</p>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar-y bg-warning" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="inner-box">
+                                                <div class="icon-box-y"><i class="fab fa-cuttlefish icon"></i></div>
+                                                <div class="inner-title-y"><p>C#</p>
+                                                    <h3>PROGRAMMATION</h3></div>
+                                            </div>
+                                            <div class="text">
+                                                <p>C# est un langage de programmation orientée objet, fortement typé, dérivé de C et de C++, ressemblant au langage Java. Il est utilisé pour développer des applications web, ainsi que des applications de bureau, des competencess web.</p>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar-y bg-warning" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="experience" id="experience">
+                        <div class="title"><h1>Expérience en Entreprise</h1></div>
+                        <div class="content">
+                            <div class="timeline_wrapper">
+                                <div class="year-timeline">
+                                    <div class="single-timeline-item">
+                                        <div class="text-holder"><h3>
+                                            <a href="https://www.xefi.fr/agence/xefi-lannion/">XEFI Lannion</a></h3>
+                                            <h4>2019</h4>
+                                            <p>Durant ces
+                                                <b class="br-y">4 semaines de Stages chez Xefi-Lannion</b>, j'ai pu intégrer le secteur professionnel. J'ai du installer un réseau complet chez BHZ-Coworking Lannion. Puis réaliser site web de Xefi-Lannion.
+                                            </p>
+                                            <div class="serial"><h1>01</h1></div>
+                                        </div>
+                                    </div>
+                                    <div class="single-timeline-item">
+                                        <div class="text-holder"><h3>
+                                            <a href="http://www.skill-informatique.com/">Skill-Informatique Lannion</a>
+                                        </h3> <h4>2018</h4>
+                                            <p>J'ai pu effectuer
+                                                <b class="br-y">14 semaines chez Skill-Informatique Lannion</b>, durant lesquelles j'ai été avec les techniciens d'atelier. Ils ont su me faire confiance, et me donner des tâches équivalentes à les leurs. Comme la réalisation de montage PC, dépannage de matériel défectueux ou même l'installation chez des particuliers...
+                                            </p>
+                                            <div class="serial"><h1>02</h1></div>
+                                        </div>
+                                    </div>
+                                    <div class="single-timeline-item">
+                                        <div class="text-holder"><h3>
+                                            <a href="http://www.mge-informatique.com/">MGE-Informatique St-Quay-Perros</a>
+                                        </h3> <h4>2018</h4>
+                                            <p>J'ai été
+                                                <b class="br-y">4 semaines chez MGE-Informatique à St-Quay-Perros</b>, j'ai fais des montages PC, des réparations de matériels informatique, des désinfections de PC et également des interventions chez des Professionnels.
+                                            </p>
+                                            <div class="serial"><h1>03</h1></div>
+                                        </div>
+                                    </div>
+                                    <div class="single-timeline-item">
+                                        <div class="text-holder"><h3>
+                                            <a href="https://www.orange.com/fr/accueil">Orange Labs Lannion</a></h3>
+                                            <h4>2014</h4>
+                                            <p>Pendant ce stage d'observation chez Orange Labs à Lannion, j'ai eu un aperçu de certains aspects du réseau, et aussi de la programmation de cartes informatiques.</p>
+                                            <div class="serial"><h1>04</h1></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="centres-interets" id="centres-interets">
+                        <div class="title"><h1>Mes Centres d'Intérets</h1></div>
+                        <div class="content">
+                            <div class="row">
+                                <div class="item-list">
+                                    <div class="Interest-column col-md-2">
+                                        <div class="item">
+                                            <div class="icon-box" data-toggle="tooltip" title="Programmation">
+                                                <span class="icon fab fa-dev"></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="Interest-column col-md-2">
+                                        <div class="item">
+                                            <div class="icon-box" data-toggle="tooltip" title="Tennis">
+                                                <span class="icon fas fa-racquet"></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="Interest-column col-md-2">
+                                        <div class="item">
+                                            <div class="icon-box" data-toggle="tooltip" title="Design Applicatif | Suite Adobe">
+                                                <span class="icon fab fa-adobe"></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="Interest-column col-md-2">
+                                        <div class="item">
+                                            <div class="icon-box" data-toggle="tooltip" title="Photographie">
+                                                <span class="icon fas fa-camera"></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="Interest-column col-md-2">
+                                        <div class="item">
+                                            <div class="icon-box" data-toggle="tooltip" title="Voyages">
+                                                <span class="icon fas fa-plane"></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="contact" id="contact">
+                        <div class="title"><h1>Contact</h1></div>
+                        <div class="content">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <form id="contact-form" action="" class="contact-form" name="contact_form" method="post">
+                                        <input class="form-control" type="text" name="form_name" required="" placeholder="Prénom / Nom">
+                                        <input class="form-control required email" type="email" name="form_email" placeholder="Email">
+                                        <input class="form-control required" type="text" name="form_subject" placeholder="Sujet">
+                                        <textarea class="form-control textarea required" name="form_message" placeholder="Message"></textarea>
+                                        <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                            <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden">
+                                            <button class="contact-btn hvr-sweep-to-top" type="submit" data-loading-text="">Envoyer</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <footer class="footer">
+                        <div class="main-footer">
+                            <div class="content">
+                                <div class="copyright pull-left"><p>CV Version Web &copy; Kylian 2019</p></div>
+                                <div class="social pull-right">
+                                    <ul class="list-inline">
+                                        <li>
+                                            <a id="btnJS" onclick="alert('Version Javascript : ' + version + '\n' + 'Date du Jour : ' +  getDate()); hideButton()"><span class="icon fab fa-js-square" ></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://linkedin.com/in/kyliandev/"><span class="icon fab fa-linkedin"></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.kyliandev.fr/"><span class="icon fab fa-connectdevelop"></span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="assets/js/jquery.js"></script> <!-- Nécessaire pour le bon fonctionnement de Bootstrap ! -->
+<script src="assets/js/bootstrap.min.js"></script> <!--Bootstrap JS -->
+<script src="assets/js/script.js"></script> <!--Contient le JS demandé -->
+
+<!-- Nécessaire pour l'affichage de la version de JS -->
+<script type="text/javascript"> var version = 1.0; </script>
+<script language="Javascript1.6"> version = 1.6; </script>
+<script language="Javascript1.7"> version = 1.7; </script>
+<script language="Javascript1.8"> version = 1.8; </script>
+<script language="Javascript1.9"> version = 1.9; </script>
+
+</body>
+</html>
