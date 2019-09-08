@@ -13,7 +13,6 @@
 
 ### 📌 Tâches Restantes
 - Formulaire de Contact (PHP)
-- Section "Mes Réalisations"
 
 ### 📌 Contact
 > Contacter moi via les supports suivant
