@@ -17,10 +17,10 @@
 ### 📌 Contact
 > Contacter moi via les supports suivant
 
-- Website at <a href="https://cv.kyliandev.fr" target="_blank">`cv.kyliandev.fr`</a>
-- Linkedin at <a href="https://www.linkedin.com/in/kyliandev/" target="_blank">`@kyliandev`</a>
+- Site Web : <a href="https://cv.kyliandev.fr" target="_blank">`cv.kyliandev.fr`</a>
+- Linkedin : <a href="https://www.linkedin.com/in/kyliandev/" target="_blank">`@kyliandev`</a>
 
 ### 🔒 License
 
-- This structure can be take, and modified.
-- No rights are deposited.
+- Peut-être repris et modifié.
+- Aucun droit n'a été déposé.
